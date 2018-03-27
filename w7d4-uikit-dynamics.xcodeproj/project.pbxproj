@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A9EC1C31F57C6EC00BBC8B7 /* w6d4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = w6d4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9EC1C31F57C6EC00BBC8B7 /* w7d4-uikit-dynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "w7d4-uikit-dynamics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9EC1C61F57C6EC00BBC8B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A9EC1C81F57C6EC00BBC8B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A9EC1CB1F57C6ED00BBC8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		2A9EC1BA1F57C6EC00BBC8B7 = {
 			isa = PBXGroup;
 			children = (
-				2A9EC1C51F57C6EC00BBC8B7 /* w6d4 */,
+				2A9EC1C51F57C6EC00BBC8B7 /* w7d4-uikit-dynamics */,
 				2A9EC1C41F57C6EC00BBC8B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		2A9EC1C41F57C6EC00BBC8B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A9EC1C31F57C6EC00BBC8B7 /* w6d4.app */,
+				2A9EC1C31F57C6EC00BBC8B7 /* w7d4-uikit-dynamics.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A9EC1C51F57C6EC00BBC8B7 /* w6d4 */ = {
+		2A9EC1C51F57C6EC00BBC8B7 /* w7d4-uikit-dynamics */ = {
 			isa = PBXGroup;
 			children = (
 				2A9EC1C61F57C6EC00BBC8B7 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				2A9EC1CF1F57C6ED00BBC8B7 /* LaunchScreen.storyboard */,
 				2A9EC1D21F57C6ED00BBC8B7 /* Info.plist */,
 			);
-			path = w6d4;
+			path = "w7d4-uikit-dynamics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A9EC1C21F57C6EC00BBC8B7 /* w6d4 */ = {
+		2A9EC1C21F57C6EC00BBC8B7 /* w7d4-uikit-dynamics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A9EC1D51F57C6ED00BBC8B7 /* Build configuration list for PBXNativeTarget "w6d4" */;
+			buildConfigurationList = 2A9EC1D51F57C6ED00BBC8B7 /* Build configuration list for PBXNativeTarget "w7d4-uikit-dynamics" */;
 			buildPhases = (
 				2A9EC1BF1F57C6EC00BBC8B7 /* Sources */,
 				2A9EC1C01F57C6EC00BBC8B7 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = w6d4;
+			name = "w7d4-uikit-dynamics";
 			productName = w6d4;
-			productReference = 2A9EC1C31F57C6EC00BBC8B7 /* w6d4.app */;
+			productReference = 2A9EC1C31F57C6EC00BBC8B7 /* w7d4-uikit-dynamics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,17 +91,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "MoozX Internet Ventures";
 				TargetAttributes = {
 					2A9EC1C21F57C6EC00BBC8B7 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = Q9N5PH89AB;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 2A9EC1BE1F57C6EC00BBC8B7 /* Build configuration list for PBXProject "w6d4" */;
+			buildConfigurationList = 2A9EC1BE1F57C6EC00BBC8B7 /* Build configuration list for PBXProject "w7d4-uikit-dynamics" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A9EC1C21F57C6EC00BBC8B7 /* w6d4 */,
+				2A9EC1C21F57C6EC00BBC8B7 /* w7d4-uikit-dynamics */,
 			);
 		};
 /* End PBXProject section */
@@ -174,7 +175,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -182,7 +185,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -225,7 +232,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -233,7 +242,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -264,11 +277,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q9N5PH89AB;
-				INFOPLIST_FILE = w6d4/Info.plist;
+				INFOPLIST_FILE = "w7d4-uikit-dynamics/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.moozx.w6d4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moozx.w7d4-uikit-dynamics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -277,18 +291,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q9N5PH89AB;
-				INFOPLIST_FILE = w6d4/Info.plist;
+				INFOPLIST_FILE = "w7d4-uikit-dynamics/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.moozx.w6d4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moozx.w7d4-uikit-dynamics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A9EC1BE1F57C6EC00BBC8B7 /* Build configuration list for PBXProject "w6d4" */ = {
+		2A9EC1BE1F57C6EC00BBC8B7 /* Build configuration list for PBXProject "w7d4-uikit-dynamics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A9EC1D31F57C6ED00BBC8B7 /* Debug */,
@@ -297,13 +312,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A9EC1D51F57C6ED00BBC8B7 /* Build configuration list for PBXNativeTarget "w6d4" */ = {
+		2A9EC1D51F57C6ED00BBC8B7 /* Build configuration list for PBXNativeTarget "w7d4-uikit-dynamics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A9EC1D61F57C6ED00BBC8B7 /* Debug */,
 				2A9EC1D71F57C6ED00BBC8B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

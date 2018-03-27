@@ -45,7 +45,7 @@ extension ViewController {
         // Create a collision behavior and apply it to the squareView
         collision = UICollisionBehavior(items: [squareView])
         
-        // Use the bounds of the reference view as the boundary
+        // Set the bounds of the reference view as the boundary
         collision.translatesReferenceBoundsIntoBoundary = true
         
         // Add a boundary around the barrierView
@@ -54,7 +54,7 @@ extension ViewController {
         // Add the collision behaviour to our physics engine
         animator.addBehavior(collision)
         
-        // Make ourselves delegate for UICollisionBehaviorDelegate
+        // Make ourselves the delegate for the collision behaviour
         collision.collisionDelegate = self
         
         // Change elasticity of squareView
